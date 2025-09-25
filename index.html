@@ -1,12 +1,98 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Portfolio</title>
-</head>
-<body>
-  <h1>Hello, world!</h1>
-  <p>This is my first GitHub Pages site.</p>
-  
-  <p>I go by the nickname altCourier. Not the courier six.</p>
-</body>
+
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My CV</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Main Page</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Container -->
+        <div class="container">
+
+            <!-- Left Sidebar -->
+            <aside class="sidebar">
+
+                <!-- Profile Card -->
+                <div class="profile-card">
+                    <img src="images/picture_of_me.png" alt="Profile Picture" class="profile-image">
+                    <h1 class="profile-name">SILA ULUYOL</h1>
+                    <p class="profile-bio">Computer Science Student at Ankara University && Exchange Student in UEF</p>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+
+                    <h3>Contact Information</h3>
+
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <a href="mailto:suluyol@uef.fi">suluyol@uef.fi</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>💼</span>
+                        <a href="https://www.linkedin.com/in/slauluyol" target="_blank">LinkedIn Profile</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>🐙</span>
+                        <a href="https://github.com/altCourier" target="_blank">GitHub Profile</a>
+                    </div>
+
+                </div>
+
+            </aside>
+
+            <!-- Main Content -->
+            <main class="main-content">
+
+                <!-- About Me Section -->
+                <div class="content-card">
+                    <h2>About Me</h2>
+                    <p>Welcome to my website! </p>
+                    <p>I'm a programmer focused on low-level systems and network programming. I work primarily with C, and I'm skilled in using Makefiles and Git to manage projects.</p>
+                </div>
+
+                <!-- GitHub Activity Section -->
+                <div class="content-card">
+
+                    <h2>GitHub Activity</h2>
+
+                    <div class="github-widgets">
+
+                        <!-- GitHub Streak Stats -->
+                        <div class="widget-container">
+                            <img src="https://github-readme-streak-stats.herokuapp.com/?user=altCourier&theme=dark&hide_border=true&background=161b22&stroke=30363d&ring=00d084&fire=00d084&currStreakLabel=8b949e&currStreakNum=f0f6fc&dates=8b949e" alt="GitHub Streak Stats">
+                        </div>
+                        
+                        <!-- GitHub Stats Card -->
+                        <div class="widget-container">
+                            <img src="https://github-readme-stats.vercel.app/api?username=altCourier&show_icons=true&theme=dark&hide_border=true&bg_color=161b22&text_color=f0f6fc&icon_color=00d084&title_color=00d084" alt="GitHub Stats">
+                        </div>
+
+                    </div>
+
+                    <p style="margin-top: 1.5rem; text-align: center;">Live stats from my GitHub profile - updated automatically!</p>
+
+                </div>
+            </main>
+
+        </div>
+    </body>
 </html>
